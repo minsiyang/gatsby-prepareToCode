@@ -2,19 +2,19 @@ import React from "react"
 import renderer from "react-test-renderer"
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react';
-import Header from "./header"
+import LandingPage from "./LandingPage"
 // import { render } from "react-dom";
 
-describe("Header", () => {
+describe("Landing page", () => {
   it("renders correctly", () => {
     const tree = renderer
-      .create(<Header/>)
+      .create(<LandingPage/>)
       .toJSON()
     expect(tree).toMatchSnapshot()
   });
 
   it("Renders prepare to code title" , () => {
-    render(<Header/>)
+    render(<LandingPage/>)
     const message = "Prepare to code"
     expect(screen.getByText(message)).toBeInTheDocument();
   });

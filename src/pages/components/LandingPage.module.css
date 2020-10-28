@@ -1,0 +1,28 @@
+.headers {
+  text-align: center;
+  font-size: 13vw;
+}
+
+body {
+  background-color: #e2dfd2;
+}
+
+.osOption {
+  font-size: 3.5vw;
+}
+
+strong {
+font-weight: bolder;
+}
+
+button {
+  padding: 3vw;
+  font-size: 4vw;
+  border-radius: 3vw;
+  border: 0.5vw white solid;
+  cursor: pointer;
+  user-select: none;
+  outline: 0;
+  margin-bottom: 5vw;
+}
+
